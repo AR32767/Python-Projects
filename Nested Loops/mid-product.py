@@ -9,7 +9,7 @@ if count %2 == 0:
     mid2 = mid+1
     temp = num
     pos = 0
-    while temp > 10**(count-2):
+    while temp > (count-2):
         digit = temp % 10
         if pos == mid:
             mid = digit
